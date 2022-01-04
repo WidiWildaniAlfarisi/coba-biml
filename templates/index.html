@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+   <body>
+    <div class="div2">
+      <form action = "http://localhost:5000" method = "POST">
+         <p> Angka Melek Huruf :  <input type="text", name='a', placeholder="Nilai" /> 
+		 <p> Angka Partisipasi Sekolah :  <input type="text", name='b', placeholder="Nilai" /> 
+		 <input type = "submit" value = "ok" /> </p>
+      </form>
+    
+   <p> Nilai IPM sebesar:{{ result }}</p>
+   </div>
+   </body>
+<style>
+    .div2 {
+     width: 400px;
+     height: 150px;  
+     padding: 50px;
+     border: 1px solid black;
+   }
+   </style>
+</html>
